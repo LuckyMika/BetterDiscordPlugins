@@ -1,14 +1,16 @@
 /**
  * @name BiggerEmojis
+ * @author Mika ❤ Floppa#2716
+ * @version 1.0.2
+ * @description Makes emojis their original size! Everything is reset on disable!
+ * @source https://github.com/LuckyMika/BetterDiscordPlugins
+ * @updateUrl https://raw.githubusercontent.com/LuckyMika/BetterDiscordPlugins/master/biggeremojis.plugin.js
  */
-
-
-const payloads = {}
 
 class BiggerEmojis {
     getName() { return "BiggerEmojis" }
     getAuthor() { return "Mika ❤ Floppa#2716" }
-    getDescription() { return "Enlarges emojis!" }
+    getDescription() { return "Makes emojis their original size! Everything is reset on disable!" }
     getVersion() { return "1.0.2" }
 
     load() {
